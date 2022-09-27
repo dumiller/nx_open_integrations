@@ -12,9 +12,10 @@ const std::vector<std::string> kClasses{
     "chair", "cow", "dining table", "dog", "horse", "motorbike", "person", "potted plant",
     "sheep", "sofa", "train", "tv monitor"
 };
-const std::vector<std::string> kClassesToDetect{"cat", "dog", "person"};
+const std::vector<std::string> kClassesToDetect{
+    "bicycle", "boat", "bus", "car", "cat", "cow", "dog", "horse", "motorbike", "person"};
 const std::map<std::string, std::string> kClassesToDetectPluralCapitalized{
-    {"cat", "Cats"}, {"dog", "Dogs"}, {"person", "People"}};
+    {"bicycle", "Bicycles"}, {"boat", "Boats"}, {"car", "Cars"}, {"cat", "Cats"}, {"cow", "Cows"}, {"dog", "Dogs"}, {"horse", "Horses"}, , {"motorbike", "Motorbikes"}, {"person", "People"}};
 
 } // namespace opencv_object_detection
 } // namespace vms_server_plugins
